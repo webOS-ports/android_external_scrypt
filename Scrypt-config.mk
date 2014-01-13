@@ -41,7 +41,7 @@ arm_src_files :=
 
 arm_exclude_files :=
 
-arm_neon_c_flags :=
+arm_neon_c_flags := -flax-vector-conversions
 
 arm_neon_src_files := \
   lib/crypto/crypto_scrypt-neon.c \
